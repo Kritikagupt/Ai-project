@@ -66,6 +66,6 @@ if analyze and uploaded_file :
         st.markdown("###  Analysis Result :")
         st.markdown(response.outputs[0].content[0].text)
 
-    except Exception as e:
+ except Exception as e:
         st.error(f"An error occurred: {e}")
  
